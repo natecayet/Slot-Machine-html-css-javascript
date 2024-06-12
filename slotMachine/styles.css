@@ -1,0 +1,59 @@
+* {
+    background-color: #322e2e;
+    color: #eee3c5;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin: 2rem auto 0 auto;
+    border: solid #352b2b;
+    box-shadow: 0 0 5px 0 #969292;
+    background-color: #696860;
+}
+
+.box {
+    border: 10px solid #352b2b;
+    height: 100px;
+    width: 100px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0 #969292;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.slotText, .slotText2, .slotText3 {
+    font-size: 50px;
+    color: black;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.banner {
+    border: solid #352b2b;
+    width: 500px;
+    padding: 0;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #fee501, #f55504);
+    box-shadow: 0 0 15px 0 yellow;
+    display: none;
+}
+
+.winText {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #1a1714;
+    background-color: inherit;
+}
